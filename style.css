@@ -1,0 +1,37 @@
+:root {
+    --primary:rgb(17, 17, 97);
+    --accent:rgb(58, 199, 22);
+}
+.header{
+    background-color: var(--primary);
+    height:
+}
+.header h1{
+    color: var(--primary);
+    background: var(--accent);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    font-size: 24px;
+    width: 10%
+    border-wdith: 12%;
+    height: 130%;
+
+}
+ ul{
+    display:flex;
+    flex-direction: row;
+    float: right;
+    text-decoration: underline;
+    color: var(--accent);
+ }
+ h2{
+    margin: 8px;
+ }
+ .top-photo{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/Users/jordancarrasco/challenges/arrogant-about-me-allegory/football-seattle-seahawks-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+ }
